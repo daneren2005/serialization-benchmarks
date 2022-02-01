@@ -217,8 +217,8 @@ runBenchmark({
 
 
 function runBenchmark({ name, encode, decode, params }) {
-	/*runBenchmarkWithConfig(name, 'save', saveConfig, encode, decode, params ?? {});
-	runBenchmarkWithConfig(name, 'entity', saveConfig.entities[0], encode, decode, params ?? {}, SMALL_ENCODE_TIMES_TO_RUN);*/
+	runBenchmarkWithConfig(name, 'save', saveConfig, encode, decode, params ?? {});
+	runBenchmarkWithConfig(name, 'entity', saveConfig.entities[0], encode, decode, params ?? {}, SMALL_ENCODE_TIMES_TO_RUN);
 	runBenchmarkWithConfig(name, 'updates', updatesConfig, encode, decode, params ?? {}, SMALL_ENCODE_TIMES_TO_RUN);
 	console.log('');
 	console.log('');

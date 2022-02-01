@@ -44,26 +44,26 @@ For small entity updates, avsc without compression appears to be the smallest/fa
 
 
 ## TODO: Add tables for x/y entity update array results
-json updates size: 410 chars
-json updates compressed: 358 chars
-json updates average encode: 2.38ns (2.3ns - 2.6ns std dev 0.21ns)
-json updates average decode: 2.25ns (2.2ns - 2.5ns std dev 0.23ns)
-json updates average compress: 1.80ns (1.6ns - 6ns std dev 0.40ns)
+json updates size: 410 chars  
+json updates compressed: 358 chars  
+json updates average encode: 2.38ns (2.3ns - 2.6ns std dev 0.21ns)  
+json updates average decode: 2.25ns (2.2ns - 2.5ns std dev 0.23ns)  
+json updates average compress: 1.80ns (1.6ns - 6ns std dev 0.40ns)  
 
-avsc updates size: 318 chars
-avsc updates compressed: 323 chars
-avsc updates average encode: 2.39ns (2.3ns - 3.9ns std dev 0.24ns)
-avsc updates average decode: 1.10ns (1ns - 2ns std dev 0.19ns)
-avsc updates average compress: 1.49ns (1.2ns - 11.1ns std dev 0.46ns)
+avsc updates size: 318 chars  
+avsc updates compressed: 323 chars  
+avsc updates average encode: 2.39ns (2.3ns - 3.9ns std dev 0.24ns)  
+avsc updates average decode: 1.10ns (1ns - 2ns std dev 0.19ns)  
+avsc updates average compress: 1.49ns (1.2ns - 11.1ns std dev 0.46ns)  
 
-cbor-x updates size: 377 chars
-cbor-x updates compressed: 356 chars
-cbor-x updates average encode: 1.31ns (1.2ns - 2.3ns std dev 0.18ns)
-cbor-x updates average decode: 1.27ns (1.2ns - 2.4ns std dev 0.26ns)
-cbor-x updates average compress: 1.80ns (1.5ns - 21.2ns std dev 0.63ns)
+cbor-x updates size: 377 chars  
+cbor-x updates compressed: 356 chars  
+cbor-x updates average encode: 1.31ns (1.2ns - 2.3ns std dev 0.18ns)  
+cbor-x updates average decode: 1.27ns (1.2ns - 2.4ns std dev 0.26ns)  
+cbor-x updates average compress: 1.80ns (1.5ns - 21.2ns std dev 0.63ns)  
 
-js-binary updates size: 346 chars
-js-binary updates compressed: 340 chars
-js-binary updates average encode: 5.12ns (4.7ns - 30.2ns std dev 0.72ns)
-js-binary updates average decode: 1.22ns (1.2ns - 2.3ns std dev 0.19ns)
-js-binary updates average compress: 1.63ns (1.4ns - 2.2ns std dev 0.30ns)
+js-binary updates size: 346 chars  
+js-binary updates compressed: 340 chars  
+js-binary updates average encode: 5.12ns (4.7ns - 30.2ns std dev 0.72ns)  
+js-binary updates average decode: 1.22ns (1.2ns - 2.3ns std dev 0.19ns)  
+js-binary updates average compress: 1.63ns (1.4ns - 2.2ns std dev 0.30ns)  
